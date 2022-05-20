@@ -25,3 +25,12 @@ Also add an image to the `img` directory. Now go to the `supergulp` directory an
 ```bash
 $> npm init
 ```
+## Adding some content to the files
+To fake a real project scenario, it is required to add some data to the project files. So lets's do it!
+
+To use gulp, we need to create a `gulpfile.js`.
+
+Also install the gulp package as:
+```bash
+$> npm install gulp
+```
