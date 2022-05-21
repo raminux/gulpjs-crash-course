@@ -34,3 +34,16 @@ Also install the gulp package as:
 ```bash
 $> npm install gulp
 ```
+
+## How to create a task with gulp?
+It is so easy! You have to just export a `const` in the gulpfile.js for each of the task you want. 
+We're going to add some task for different tasks such transforming pug files to html ones. 
+
+1. In this task, we want to change `.pug.` files into `.html' ones. First, we need to install a gulp plugin for this purpose:
+```bash
+$> npm install gulp-pug -D
+```
+> Sometimes, we need to clean the project to build fresh. To do so, we need to install the following package and use it inside our tasks:
+```bash
+$> npm i del -D
+```
